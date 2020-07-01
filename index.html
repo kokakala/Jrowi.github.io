@@ -3,3 +3,48 @@ layout: default
 home: true
 ---
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Momentum Chrome</title>
+  
+  <!-- fontawesome -->
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="js-clock">
+      <h1>00:00</h1>
+    </div>
+    <form class="js-form form">
+      <input class="input-name" type="text" placeholder="What is your name?"/>
+    </form>
+    <div class="greeting-container">
+      <h4 class="js-greetings greetings"></h4>
+      <i class="fa fa-edit"></i>
+    </div>
+    
+    <form class="js-toDoForm">
+      <input class="input-toDoList" type="text" placeholder="Write a to do list"/>
+    </form>
+    <ul class="js-toDoList">
+    </ul>
+    <div class="weather-container">
+      <div class="js-weather"></div>
+    </div>
+  </div>
+  
+  
+  <script src="clock.js"></script>
+  <script src="greeting.js"></script>
+  <script src="todo.js"></script>
+  <script src="bg.js"></script>
+  <script src="weather.js"></script>
+</body>
+
+</html>
